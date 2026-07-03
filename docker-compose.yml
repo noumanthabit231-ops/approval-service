@@ -1,0 +1,10 @@
+services:
+  approval-service:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - APP_DATABASE_URL=sqlite+aiosqlite:///./approval.db
+      - APP_LOG_LEVEL=INFO
+    volumes:
+      - ./data:/app/data

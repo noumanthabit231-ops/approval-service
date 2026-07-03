@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/approval_service/__init__.py
+src/approval_service/config.py
+src/approval_service/database.py
+src/approval_service/dependencies.py
+src/approval_service/events.py
+src/approval_service/main.py
+src/approval_service/models.py
+src/approval_service/schemas.py
+src/approval_service/service.py
+src/approval_service.egg-info/PKG-INFO
+src/approval_service.egg-info/SOURCES.txt
+src/approval_service.egg-info/dependency_links.txt
+src/approval_service.egg-info/requires.txt
+src/approval_service.egg-info/top_level.txt
+tests/test_approval.py
